@@ -1,8 +1,11 @@
 # machine-learning-challenge
 
 #This project had a few attempts to get a model over 85%.  Model 3 and Model 4 were the best attempts.  Model 4 was the saved model.
+
 #Model 1 has selected features that I picked based on data descriptions.  Then did MinMax scaler on that dataframe and built model off of that. SVM with grid.  
+
 #model 2  has selected features that I picked based on data descriptions.  Only 10 features.  Then did MinMax scaler on that dataframe and built model off of that. SVM with grid.  77% was best.
+
 #mdoel 3  Even though I ran selected features from model 1, I ended up using X and y based on the entire features in the end to see if percent went up.  It did go up a few percentage points to 88.  Then did MinMax scaler on that dataframe and built model off of that with Random Forest and n_estimators = 200.  I tried a few other parameter changes.  I did looks at the feature importance and it was interesting:
 Parameter	Rank	Order	Rank order
 koi_fpflag_co	0.10299467	3	1
